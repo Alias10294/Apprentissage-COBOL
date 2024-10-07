@@ -1,0 +1,13 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. Table1.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  WS-TABLE.
+           02  WS-EL1 PIC 9 VALUE 1.
+           02  WS-EL2 PIC 9 VALUE 2.
+           02  WS-EL3 PIC 9 VALUE 3.
+
+       PROCEDURE DIVISION.
+           DISPLAY WS-TABLE.
+           STOP RUN.
